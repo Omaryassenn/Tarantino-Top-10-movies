@@ -12,7 +12,7 @@
 nav
 {
 	
-    background-image: url(ttt.jpg) ;
+    background-image: url('./assets/header.jpg') ;
 	height: 80px;
 	width:100%;
 	
