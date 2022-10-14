@@ -27,6 +27,7 @@ label.namepage {
 
 }
 
+
 nav ul {
   float: right;
   margin-right: 20px;
@@ -95,23 +96,45 @@ label.namepage {
 }
 
 
+
 .content {
   text-align: center;
-  padding: 2rem;
-  display: flex;
+  padding:6rem 0rem 0rem 4rem;
+  display:flex;
   justify-content: start;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 3rem;
+  
+  
+ 
+
+    
+  
 }
+
+.content :hover p{ color: #ff0000; 
+}
+
+
+
+
+
 
 .d1 {
   position: relative;
+  padding-left: 8rem;
+  
 }
 
 .d1 .ph img {
-  width: 180px;
-  height: 260px;
+  width: 250px;
+  height: 350px;
+}
+.ph:hover{
+  transform: scale(1.02);
+    transition: all 0.4s;
+
 }
 
 .info p {

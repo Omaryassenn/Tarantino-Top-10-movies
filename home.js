@@ -4,8 +4,7 @@ const movies = [
     Genre: "Thriller, Crime",
     ReleaseDate: "10/14/1994",
     Duration: "2h 34m",
-    Overview:
-      "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+    Overview:"A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
     Director: "Quentin Tarantino",
     Story: "Roger Avary",
     Stars: "John Travolta ,Uma Thurman, Samuel L. Jackson",
@@ -17,10 +16,9 @@ const movies = [
   {
     Name: "Inglourious Basterds",
     Genre: "Drama, Action, Thriller, War",
-    "Release Date": "08/21/2009",
+    ReleaseDate: "08/21/2009",
     Duration: "2h 33m",
-    Overview:
-      "In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as The Basterds are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
+    Overview:"In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as The Basterds are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
     Director: "Quentin Tarantino",
     Stars: "Brad Pitt , Diane Kruger ,Eli Roth",
     Budget: "$70,000,000.00",
@@ -31,10 +29,9 @@ const movies = [
   {
     Name: "Reservoir Dogs",
     Genre: "Crime, Thriller",
-    "Release Date": "09/02/1992 ",
+    ReleaseDate: "09/02/1992 ",
     Duration: "1h 39m",
-    Overview:
-      "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
+    Overview:"A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
     Director: "Quentin Tarantino",
     Writer: "Roger Avary",
     Stars: "Harvey Keitel , Tim Roth , Michael Madsen",
@@ -46,10 +43,9 @@ const movies = [
   {
     Name: "Jackie Brown",
     Genre: "Crime, Thriller, Drama",
-    "Release Date": "12/25/1997",
+    ReleaseDate: "12/25/1997",
     Duration: "2h 34m",
-    Overview:
-      "Jackie Brown is a flight attendant who gets caught in the middle of smuggling cash into the country for her gunrunner boss. When the cops try to use Jackie to get to her boss, she hatches a plan — with help from a bail bondsman — to keep the money for herself.",
+    Overview:"Jackie Brown is a flight attendant who gets caught in the middle of smuggling cash into the country for her gunrunner boss. When the cops try to use Jackie to get to her boss, she hatches a plan — with help from a bail bondsman — to keep the money for herself.",
     Director: "Quentin Tarantino",
     Story: "Elmore Leonard",
     Stars: "Pam Grier , Samuel L. Jackson , Robert Forster",
@@ -61,10 +57,9 @@ const movies = [
   {
     Name: "Django Unchained",
     Genre: "Drama, Western",
-    "Release Date": "01/16/2013",
+    ReleaseDate: "01/16/2013",
     Duration: "2h 45m",
-    Overview:
-      "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+    Overview:"With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
     Director: "Quentin Tarantino",
     Stars: "Jamie Foxx , Christoph Waltz , Leonardo DiCaprio",
     Budget: "$100,000,000.00",
@@ -75,7 +70,7 @@ const movies = [
   {
     Name: "Kill Bill: Vol. 1",
     Genre: "Action, Crime",
-    "Release Date": "12/31/2003",
+    ReleaseDate: "12/31/2003",
     Duration: "1h 51m",
     Overview:
       "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle – but she lives to plot her vengeance.",
@@ -90,7 +85,7 @@ const movies = [
   {
     Name: "Natural Born Killers",
     Genre: "Crime, Thriller, Drama",
-    "Release Date": "08/25/1994",
+    ReleaseDate: "08/25/1994",
     Duration: "1h 58m",
     Overview:
       "Two victims of traumatized childhoods become lovers and serial murderers irresponsibly glorified by the mass media.",
@@ -106,16 +101,51 @@ const movies = [
 
   // كمل الأفلام دول
   {
+   
+    Genre: "Horror, Action, Thriller, Crime",
+    ReleaseDate: "01/19/1996",
+    Duration: "1h 48m",
+    Overview:  "Seth Gecko and his younger brother Richard are on the run after a bloody bank robbery in Texas. They escape across the border into Mexico and will be home-free the next morning, when they pay off the local kingpin. They just have to survive 'from dusk till dawn' at the rendezvous point, which turns out to be a Hell of a strip joint.",
+    Director: "Robert Rodriguez",
+    Screenplay: "Quentin Tarantino",
+    Story: "Robert Kurtzman ",
+    Stars: "  Harvey Keitel , George Clooney , Juliette Lewis",
+    Budget: "$19,000,000.00",
+    Revenue: "$25,836,616.00",
+    "IMDb RATING": "7.2/10",
     Name: "From Dusk Till Dawn",
     src: "assets/from_dusk_till_dawn.jpg",
+
   },
   {
     Name: "The Hateful Eight",
     src: "assets/hateful_eight.jpg",
+    Genre: "Drama, Mystery, Western",
+    ReleaseDate: "12/30/2015",
+    Duration: "3h 8m",
+    Overview:  "Bounty hunters seek shelter from a raging blizzard and get caught up in a plot of betrayal and deception.",
+    Director: "Quentin Tarantino",
+    Screenplay: "Quentin Tarantino",
+    Story: "Quentin Tarantino",
+    Stars: " Samuel L. Jackson , Kurt Russell , Jennifer Jason Leigh",
+    Budget: "$44,000,000.00  ",
+    Revenue: "$155,760,117.00",
+    "IMDb RATING": "7.8/10",
   },
   {
     Name: "Four Rooms",
     src: "assets/four_rooms.jpg",
+    Genre: "Crime, Comedy    ",
+    ReleaseDate: "12/25/1995",
+    Duration: "1h 38m",
+    Overview:  "It's Ted the Bellhop's first night on the job...and the hotel's very unusual guests are about to place him in some outrageous predicaments. It seems that this evening's room service is serving up one unbelievable happening after another.",
+    Director: "Quentin Tarantino",
+    Screenplay:"Allison Anders",
+    Story: "Quentin Tarantino",
+    Stars: " Tim Roth , Antonio Banderas , Sammi Davis",
+    Budget: "$4,000,000.00  ",
+    Revenue: "$155,760,117.00",
+    "IMDb RATING": "6.7/10",
   },
 ];
 
@@ -129,6 +159,10 @@ window.addEventListener("load", (event) => {
     const movieEl = document.createElement("a");
     movieEl.classList.add("d1");
     movieEl.href = "data.html";
+    movieEl.id = i;
+    movieEl.addEventListener("click", (e)=>{
+      sessionStorage.setItem('movie',JSON.stringify(movie))
+    })
 
     // <div class="ph"> <img src="xxxx.jpg" /> </div>
     const ph = document.createElement("div");
