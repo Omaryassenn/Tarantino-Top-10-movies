@@ -23,7 +23,7 @@ const movies = [
     Stars: "Brad Pitt , Diane Kruger ,Eli Roth",
     Budget: "$70,000,000.00",
     Revenue: "$321,457,747.00",
-    IMDbRATING: "8.3/10",
+    IMDbRATING: "8.3/10",IMDbRATING: "8.3/10",
     src: "assets/inglourios_basterds.jpg",
   },
   {
