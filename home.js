@@ -23,7 +23,7 @@ const movies = [
     Stars: "Brad Pitt , Diane Kruger ,Eli Roth",
     Budget: "$70,000,000.00",
     Revenue: "$321,457,747.00",
-    "IMDb RATING": "8.3/10",
+    IMDbRATING: "8.3/10",
     src: "assets/inglourios_basterds.jpg",
   },
   {
@@ -37,7 +37,7 @@ const movies = [
     Stars: "Harvey Keitel , Tim Roth , Michael Madsen",
     Budget: "$1,200,000.00",
     Revenue: "$2,859,750.00",
-    "IMDb RATING": "8.3/10",
+    IMDbRATING: "8.3/10",
     src: "assets/reservoir_dogs.jpg",
   },
   {
@@ -51,7 +51,7 @@ const movies = [
     Stars: "Pam Grier , Samuel L. Jackson , Robert Forster",
     Budget: "$12,000,000.00",
     Revenue: "$39,673,162.00",
-    "IMDb RATING": "7.5/10",
+    IMDbRATING: "7.5/10",
     src: "assets/jackie_brown.jpg",
   },
   {
@@ -64,7 +64,7 @@ const movies = [
     Stars: "Jamie Foxx , Christoph Waltz , Leonardo DiCaprio",
     Budget: "$100,000,000.00",
     Revenue: "$425,368,238.00",
-    "IMDb RATING": "8.4/10",
+    IMDbRATING: "8.4/10",
     src: "assets/django_unchained.jpg",
   },
   {
@@ -79,7 +79,7 @@ const movies = [
     Stars: "Uma Thurman , David Carradine , Daryl Hannah",
     Budget: "$30,000,000.00",
     Revenue: "$180,906,076.00",
-    "IMDb RATING": "8.2/10",
+    IMDbRATING: "8.2/10",
     src: "assets/kill_bill.jpg",
   },
   {
@@ -89,13 +89,13 @@ const movies = [
     Duration: "1h 58m",
     Overview:
       "Two victims of traumatized childhoods become lovers and serial murderers irresponsibly glorified by the mass media.",
-    "Director, Screenplay": "Oliver Stone",
+    Director: "Oliver Stone",
     Screenplay: "Richard Rutowski , David Veloz",
     Story: "Quentin Tarantino",
     Stars: " Woody Harrelson , Juliette Lewis , Tom Sizemore",
     Budget: "$34,000,000.00",
     Revenue: "$50,283,563.00",
-    "IMDb RATING": "7.2/10",
+    IMDbRATING: "7.2/10",
     src: "assets/natural_born_killers.jpg",
   },
 
@@ -112,7 +112,7 @@ const movies = [
     Stars: "  Harvey Keitel , George Clooney , Juliette Lewis",
     Budget: "$19,000,000.00",
     Revenue: "$25,836,616.00",
-    "IMDb RATING": "7.2/10",
+    IMDbRATING: "7.2/10",
     Name: "From Dusk Till Dawn",
     src: "assets/from_dusk_till_dawn.jpg",
 
@@ -130,7 +130,7 @@ const movies = [
     Stars: " Samuel L. Jackson , Kurt Russell , Jennifer Jason Leigh",
     Budget: "$44,000,000.00  ",
     Revenue: "$155,760,117.00",
-    "IMDb RATING": "7.8/10",
+    IMDbRATING: "7.8/10",
   },
   {
     Name: "Four Rooms",
@@ -145,7 +145,7 @@ const movies = [
     Stars: " Tim Roth , Antonio Banderas , Sammi Davis",
     Budget: "$4,000,000.00  ",
     Revenue: "$155,760,117.00",
-    "IMDb RATING": "6.7/10",
+    IMDbRATING: "6.7/10",
   },
 ];
 
