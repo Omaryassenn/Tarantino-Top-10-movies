@@ -1,6 +1,6 @@
 const movies = [
   {
-    Name: "Pulp Fiction",
+    Name: "Pulp Fiction ",
     Genre: "Thriller, Crime",
     ReleaseDate: "10/14/1994",
     Duration: "2h 34m",
@@ -55,7 +55,7 @@ const movies = [
     src: "assets/jackie_brown.jpg",
   },
   {
-    Name: "Django Unchained",
+    Name: "Django Unchained body",
     Genre: "Drama, Western",
     ReleaseDate: "01/16/2013",
     Duration: "2h 45m",
